@@ -33,7 +33,6 @@
   "scripts": {
     "prepare": "npm run build",
     "build": "tsc -p .",
-    "clean": "rm -rf lib",
     "watch": "tsc -w -p .",
     "lint": "tslint -p tsconfig.json",
     "toc": "./node_modules/.bin/doctoc Readme.md --github --maxlevel 3",
